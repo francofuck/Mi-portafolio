@@ -163,20 +163,22 @@ html{
 }
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
+
 }
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color: #1e2326ij;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: .3s;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
+    transition: .3s; 
+}
+.sobremi .fila .col .contenedor-intereses .interes:hover{
     background-color: #1CB698;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
@@ -339,7 +341,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 0%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .dedicacion{
@@ -348,7 +350,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 30%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .proyect{
